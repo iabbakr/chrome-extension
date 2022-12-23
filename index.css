@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .container{
@@ -7,6 +9,7 @@ body{
     margin-right: auto;
     width: 350px;
     height: 100px;
+    padding: 10px;
 }
 div{
 
