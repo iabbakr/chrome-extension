@@ -8,11 +8,13 @@ const uList = document.getElementById("ul-el");
 
 inputBtn.addEventListener("click", function(){
     input.push(inputEl.value);
-    for (let i = 0; i < input.length; i++) {
-        uList.textContent+=input[i];
-    };
+    
      
 } );
 inputBtn2.addEventListener("click", function(){
     input.push(inputEl.value);
 } ); 
+
+for (let i = 0; i < input.length; i++) {
+    uList.textContent+=input[i];
+};
