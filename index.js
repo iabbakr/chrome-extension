@@ -13,9 +13,6 @@ inputBtn.addEventListener("click", function(){
     
      
 });
-inputBtn2.addEventListener("click", function(){
-    input.pop(inputEl.value);
-}); 
 
 for (let i = 0; i < input.length; i++) {
     uList.textContent+=input[i];
