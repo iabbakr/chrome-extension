@@ -18,6 +18,7 @@ input{
     border: 1px solid green;
     color: black;
     background: aliceblue;
+    outline: none;
 
 }
 button{
