@@ -12,17 +12,17 @@ body{
     padding: 10px;
     border: 1px solid black;
 }
-div{
-
-}
-.row{
-    width: 100%;
-}
 input{
     width: 100%;
     padding: 10px;
+    border: 1px solid green;
+    color: black;
+    background: aliceblue;
 
 }
 button{
     margin-top: 10px;
+    background-color: green;
+    color: white;
+    padding: 8px 12px;
 }
