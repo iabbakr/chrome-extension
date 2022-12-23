@@ -26,4 +26,5 @@ button{
     background-color: green;
     color: white;
     padding: 8px 12px;
+    border: none;
 }
