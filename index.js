@@ -20,8 +20,8 @@ function renderInput(){
     let listItems = "";
 
     for (let i = 0; i < myInput.length; i++) {
-        listItems += "<li>"+ myInput[i]+ "</li>";
-        lin = "<a>"+listItems+"</a>" 
+        listItems += "<li><a href='"+myInput[i]+"' target='blank'>"+myInput[i]+"</a>   </li>";
     };
-    uList.innerHTML = lin;
+    uList.innerHTML = listItems;
 };
+
