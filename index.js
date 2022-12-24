@@ -10,7 +10,7 @@ const uList = document.getElementById("ul-el");
 inputBtn.addEventListener("click", function(){
     input.push(inputEl.value);
     renderInput();
-});
+};);
 //inputBtn2.addEventListener("click", function(){
 //    input.pop(inputEl.value);
 //});
