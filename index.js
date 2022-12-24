@@ -24,6 +24,6 @@ function renderInput(){
     };
     uList.innerHTML = listItems;
 };
-function clearThis(inputEl) {
+function clearThis() {
     inputEl.value= "";
-}
+};
