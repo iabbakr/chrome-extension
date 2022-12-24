@@ -21,6 +21,7 @@ function renderInput(){
 
     for (let i = 0; i < myInput.length; i++) {
         listItems += "<li>"+ myInput[i]+ "</li>";
+        lin = "<a>"+listItems+"</a>" 
     };
-    uList.innerHTML = listItems;
+    uList.innerHTML = lin;
 };
