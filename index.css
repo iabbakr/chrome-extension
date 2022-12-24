@@ -16,7 +16,7 @@ body{
 input{
     width: 100%;
     padding: 10px;
-    border: 1px solid green;
+    border: 1px solid #5f9341;
     color: black;
     background: aliceblue;
     outline: none;
@@ -24,9 +24,21 @@ input{
 }
 button{
     margin-top: 10px;
-    background-color: green;
+    background-color: #5f9341;
     color: white;
     padding: 8px 12px;
     border: none;
     font-weight: bold;
+}
+ul{
+
+}
+a{
+    color: #5f9341;
+    outline: none;
+    margin-left: 0;
+
+}
+li{
+    list-style: none;
 }
