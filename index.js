@@ -1,5 +1,6 @@
 let myInput = [];
 const inputBtn = document.getElementById("input-btn");
+const inputBtn2 = document.getElementById("input-btn2");
 const inputEl = document.getElementById("input-el");
 const uList = document.getElementById("ul-el");
 
@@ -8,8 +9,13 @@ const uList = document.getElementById("ul-el");
 inputBtn.addEventListener("click", function(){
     myInput.push(inputEl.value);
     renderInput();
+    clearThis()
 });
 
+inputBtn2.addEventListener("click", function(){
+    myInput.pop(inputEl.value);
+    renderInput();
+});
 function renderInput(){
     let listItems = "";
 
@@ -18,4 +24,6 @@ function renderInput(){
     };
     uList.innerHTML = listItems;
 };
-
+function clearThis(inputEl) {
+    inputEl.value= "";
+}
