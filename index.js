@@ -8,8 +8,8 @@ const uList = document.getElementById("ul-el");
 
 inputBtn.addEventListener("click", function(){
     myInput.push(inputEl.value);
+    inputEl.value= "";
     renderInput();
-    clearThis()
 });
 
 inputBtn2.addEventListener("click", function(){
@@ -23,7 +23,4 @@ function renderInput(){
         listItems += "<li>"+ myInput[i]+ "</li>";
     };
     uList.innerHTML = listItems;
-};
-function clearThis() {
-    inputEl.value= "";
 };
