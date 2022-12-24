@@ -11,20 +11,16 @@ inputBtn.addEventListener("click", function(){
     input.push(inputEl.value);
     renderInput();
 });
-inputBtn2.addEventListener("click", function(){
-    input.pop(inputEl.value);
-});
+//inputBtn2.addEventListener("click", function(){
+//    input.pop(inputEl.value);
+//});
 
 function renderInput(){
     let listItems = "";
-    renderInput();
 
-
-for (let i = 0; i < input.length; i++) {
-    listItems += "<li>"+ input[i]+ "</li>";
-};
-
+    for (let i = 0; i < input.length; i++) {
+        listItems += "<li>"+ input[i]+ "</li>";
+    };
 uList.innerHtml = listItems;
-
 };
 
