@@ -20,8 +20,9 @@ inputBtn.addEventListener("click", function(){
     renderInput();
 });
 
-inputBtn2.addEventListener("click", function(){
-    myInput.pop(inputEl.value);
+inputBtn2.addEventListener("dblclick", function(){
+    localStorage.clear();
+    myInput = [];
     renderInput();
 });
 function renderInput(){
