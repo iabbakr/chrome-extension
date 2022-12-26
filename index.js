@@ -19,6 +19,10 @@ inputBtn.addEventListener("click", function(){
     localStorage.setItem("myInput", JSON.stringify(myInput))
     renderInput();
 });
+inputBtn2.addEventListener("dblclick", function(){
+    localStorage.pop(myInput);
+    renderInput();
+});
 
 inputBtn2.addEventListener("dblclick", function(){
     localStorage.clear();
