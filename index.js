@@ -48,4 +48,4 @@ inputBtn3.addEventListener("dblclick", function(){
     myInput = [];
     render(myInput);
 });
-
+ 
